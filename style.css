@@ -1,0 +1,100 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+}
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: sans-serif; 
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header{
+    background-image: url("Nature.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    height: 16vh;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+body {
+    text-align: center;
+}
+
+
+#nav-ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#nav-ul > li > a { 
+list-style-type: none;
+padding: 20px;
+margin: 50px;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+
+article {
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 90%;
+}
+
+footer {
+    background-image:url(markus-spiske-O70hwncRDC8-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    align-items: center ;
+    font-family: sans-serif;
+    font-size: 3vh;
+}
+
+#footer-ul > div > li > a{
+    list-style: none;
+    margin-left: 12px;
+    color: white;
+    text-decoration: none;
+
+}
